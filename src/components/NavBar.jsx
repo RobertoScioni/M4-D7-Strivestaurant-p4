@@ -33,6 +33,17 @@ class NavBar extends React.Component {
 									Menu
 								</div>
 							</Link>
+							<Link to="/menu/debug">
+								<div
+									className={
+										this.props.location.pathname === "/menu"
+											? "nav-link active"
+											: "nav-link"
+									}
+								>
+									DebugMenu
+								</div>
+							</Link>
 							<Link to="/reservation">
 								<div
 									className={

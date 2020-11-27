@@ -26,7 +26,7 @@ class App extends React.Component {
 							props // props are history, location, match
 						) => <Home title="Stefano" {...props} />} // in this way you can pass your own props along with the router ones
 					/>
-					<Route path="/menu" exact component={Menu} />
+					<Route path="/menu" component={Menu} />
 					<Route
 						path="/reservation"
 						exact
